@@ -50,7 +50,7 @@ App({
               this.globalData.userInfo = res.userInfo
               this.globalData.encryptedData = res.encryptedData,
               this.globalData.iv = res.iv,
-              console.log('getSetting', this.globalData);
+              console.log('getSetting', this.globalData, res);
               const le_token = wx.getStorageSync('le_token');
               if (!le_token) { // 客户信息入库 线上版本第一次会有弹窗  开发版 没有弹窗
                 wxRequest({
@@ -58,8 +58,8 @@ App({
                   method: 'post',
                   headers: { 'Access-Control-Allow-Credentials': true },
                   data: {
-                    encryptedData: res.detail.encryptedData,
-                    iv: res.detail.iv,
+                    encryptedData: res.encryptedData,
+                    iv: res.iv,
                   }
                 }).then(res => {
                   console.log(res, 'decryptUser')
