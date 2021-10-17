@@ -1,0 +1,17 @@
+/**index.wxss**/
+.btn{
+  width: 94%;
+  height: 70rpx;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10rpx;
+  border: 1rpx solid #666;
+  padding: 10rpx;
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn text {
+  font-size: 30rpx;
+}

@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/mistakeBook/mistakeBook",
+    "pages/stayHomework/stayHomework",
+    "pages/doneHomework/doneHomework"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乐学作业",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#0099ff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/image/tabar_icon_homework_default.png",
+      "selectedIconPath": "/image/tabar_icon_homework_seleted.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "/image/tabar_mine_default.png",
+      "selectedIconPath": "/image/tabar_mine_selected.png"
+    }]
+  }
+}
