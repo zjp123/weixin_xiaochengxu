@@ -15,3 +15,11 @@
 .btn text {
   font-size: 30rpx;
 }
+.zjp .container{
+  margin-top: 20rpx;
+  color: yellow;
+  border: 1px solid tomato;
+}
+/* .inner{
+  background-color: red;
+} */

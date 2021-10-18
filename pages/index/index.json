@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "diy-com": "../component/diy-com/diy-com"
+  }
 }

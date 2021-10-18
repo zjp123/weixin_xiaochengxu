@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<!-- <view class="container">
+	<view class="inner">
+		{{innerText}}
+	</view>
+	<text><slot></slot></text>
+</view> -->
+<custom-component class="out-class-diy">
+	<view class="container">
+		<!-- <text>哲哲中呵呵呵</text> -->
+		<view class="inner">
+			{{innerText}}
+		</view>
+		<text><slot></slot></text>
+	</view>
+</custom-component>
+
