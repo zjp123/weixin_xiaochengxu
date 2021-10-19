@@ -172,7 +172,7 @@ Page({
           console.log(err);
         }
     })
-}
+},
   // getUserInfo: function(e) {
   //   console.log(e)
   //   app.globalData.userInfo = e.detail.userInfo
@@ -181,4 +181,8 @@ Page({
   //     hasUserInfo: true
   //   })
   // }
+  onAdd: function(e){
+      // 自定义组件触发事件时提供的detail对象
+      console.log(e.detail)
+  }
 })

@@ -5,7 +5,7 @@
 	</view>
 	<text><slot></slot></text>
 </view> -->
-<custom-component class="out-class-diy">
+<custom-component class="out-class-diy" bindtap="onTap">
 	<view class="container">
 		<!-- <text>哲哲中呵呵呵</text> -->
 		<view class="inner">

@@ -27,5 +27,5 @@
   <view class="btn mistake-book" bindtap="goMistakeBook">
     <text>错题本</text>
   </view>
-  <diy-com out-class-diy="zjp" inner-text="Some text">哈哈哈哈哈-这是自定义组件</diy-com>
+  <diy-com out-class-diy="zjp" bind:add="onAdd" inner-text="Some text">哈哈哈哈哈-这是自定义组件</diy-com>
 </view>
